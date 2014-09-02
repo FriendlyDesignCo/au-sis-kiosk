@@ -8484,71 +8484,71 @@ dl dd {
 /* line 162, ../scss/app.scss */
 section {
   padding: 5rem 0;
+  background-position: center center;
   background-attachment: fixed;
-  background-size: cover;
 }
 
-/* line 167, ../scss/app.scss */
+/* line 170, ../scss/app.scss */
 section > .row {
   padding-left: 185px;
   max-width: inherit;
 }
 
-/* line 172, ../scss/app.scss */
+/* line 175, ../scss/app.scss */
 .youtube {
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 179, ../scss/app.scss */
+/* line 182, ../scss/app.scss */
 #welcome {
   background-image: url(../img/1-crane-tinted.jpg);
 }
 
-/* line 183, ../scss/app.scss */
+/* line 186, ../scss/app.scss */
 .dean {
   text-align: center;
   height: 55px;
   border-bottom: 3px solid #fff;
   margin-bottom: 85px;
 }
-/* line 188, ../scss/app.scss */
+/* line 191, ../scss/app.scss */
 .dean .deanimg {
   border-radius: 50%;
   width: 100px;
   border: 3px solid #fff;
 }
 
-/* line 195, ../scss/app.scss */
+/* line 198, ../scss/app.scss */
 .signature {
   width: 198px;
 }
 
-/* line 201, ../scss/app.scss */
+/* line 204, ../scss/app.scss */
 #meetsis {
   background-image: url(../img/2-outdoor-tinted.jpg);
 }
 
-/* line 207, ../scss/app.scss */
+/* line 210, ../scss/app.scss */
 #sustainability {
   background-image: url(../img/3-rooftop-tinted.jpg);
 }
 
-/* line 213, ../scss/app.scss */
+/* line 216, ../scss/app.scss */
 #studyabroad {
   background-image: url(../img/4-ceiling-tinted.jpg);
 }
 
-/* line 219, ../scss/app.scss */
+/* line 222, ../scss/app.scss */
 #programsanddegrees {
   background-image: url(../img/5-classroom-tinted.jpg);
 }
 
-/* line 225, ../scss/app.scss */
+/* line 228, ../scss/app.scss */
 #careersandinternships {
   background-image: url(../img/6-balcony-tinted.jpg);
 }
-/* line 227, ../scss/app.scss */
+/* line 230, ../scss/app.scss */
 #careersandinternships ul {
   -webkit-column-count: 3;
   /* Chrome, Safari, Opera */
@@ -8557,13 +8557,13 @@ section > .row {
   column-count: 3;
 }
 
-/* line 238, ../scss/app.scss */
+/* line 241, ../scss/app.scss */
 #alumni {
   background-image: url(../img/7-topview-tinted.jpg);
   padding-bottom: 20rem;
 }
 
-/* line 243, ../scss/app.scss */
+/* line 246, ../scss/app.scss */
 .fa {
   font-size: 200%;
   width: 40px;
