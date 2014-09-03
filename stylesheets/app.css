@@ -8484,7 +8484,7 @@ dl dd {
 /* line 162, ../scss/app.scss */
 section {
   padding: 5rem 0;
-  background-position: center center;
+  background-position: center top;
   background-attachment: fixed;
 }
 
