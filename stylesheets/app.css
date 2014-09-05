@@ -6138,14 +6138,14 @@ a img {
 p {
   font-family: inherit;
   font-weight: normal;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility;
 }
 /* line 242, ../bower_components/foundation/scss/foundation/components/_type.scss */
 p.lead {
-  font-size: 1.46875rem;
+  font-size: 1.21875rem;
   line-height: 1.6;
 }
 /* line 244, ../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -6260,7 +6260,7 @@ code {
 ul,
 ol,
 dl {
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
   list-style-position: outside;
@@ -8366,7 +8366,7 @@ body {
   color: #fff;
   font-family: 'InterstateRegular', Verdana, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: #333;
+  background-color: #233447;
 }
 
 /* line 71, ../scss/app.scss */
@@ -8394,7 +8394,7 @@ h1, h2, h3, h5, h5, h6 {
 }
 
 /* line 92, ../scss/app.scss */
-h1, h2, h3, h4, h5, h6, p, li {
+h1, h2, h3, h4, h5, h6 {
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
@@ -8422,7 +8422,7 @@ a {
 
 /* line 112, ../scss/app.scss */
 .topspace {
-  padding-top: 2.5rem;
+  padding-top: 2rem;
 }
 
 /* line 120, ../scss/app.scss */
@@ -8446,7 +8446,7 @@ dl.magellan {
   left: 0;
   width: 185px;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.2);
   line-height: 1;
   z-index: 100;
 }
@@ -8460,12 +8460,12 @@ dl.magellan {
   width: 155px;
   margin: 0 auto;
   display: block;
-  padding: 0.2rem 0;
+  padding: 2rem 0;
 }
 
 /* line 143, ../scss/app.scss */
 .active {
-  background-color: rgba(85, 85, 115, 0.75);
+  background-color: rgba(61, 61, 121, 0.75);
 }
 
 /* line 146, ../scss/app.scss */
@@ -8474,7 +8474,7 @@ dl.magellan {
 }
 
 /* line 149, ../scss/app.scss */
-.magellan a {
+.magellan dd a {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   display: block;
   padding: 28px 15px;
@@ -8484,18 +8484,23 @@ dl.magellan {
 }
 
 /* line 157, ../scss/app.scss */
+.magellan dd:first-child a {
+  border-top: none;
+}
+
+/* line 160, ../scss/app.scss */
 .magellan dd:last-child {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-/* line 161, ../scss/app.scss */
+/* line 164, ../scss/app.scss */
 dl dd {
   margin: 0;
 }
 
-/* line 171, ../scss/app.scss */
+/* line 174, ../scss/app.scss */
 section {
-  padding: 4.5rem 0;
+  padding: 4rem 0;
   background-position: left -5px;
   -webkit-background-size: cover;
   /* Safari 3.0 */
@@ -8508,93 +8513,163 @@ section {
   background-repeat: no-repeat;
   z-index: 50;
   position: relative;
+  background: #233447;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #233447 0%, #27588e 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #233447), color-stop(100%, #27588e));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #233447 0%, #27588e 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #233447 0%, #27588e 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #233447 0%, #27588e 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #233447 0%, #27588e 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#233447', endColorstr='#27588e',GradientType=0 );
+  /* IE6-9 */
 }
 
-/* line 194, ../scss/app.scss */
+/* line 209, ../scss/app.scss */
 section > .row {
   padding-left: 185px;
   max-width: inherit;
 }
 
-/* line 200, ../scss/app.scss */
+/* line 215, ../scss/app.scss */
 .youtube {
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 205, ../scss/app.scss */
+/* line 220, ../scss/app.scss */
 .anchor {
   height: 0;
   width: 0;
 }
 
-/* line 211, ../scss/app.scss */
+/* line 225, ../scss/app.scss */
+.events div {
+  font-weight: bold;
+  padding-bottom: 2px;
+  letter-spacing: -0.5px;
+}
+
+/* line 230, ../scss/app.scss */
+.events li {
+  margin-bottom: 1.75rem;
+}
+
+/* line 235, ../scss/app.scss */
 #welcome {
   background-image: url(../img/1-crane-tinted.jpg);
 }
 
-/* line 216, ../scss/app.scss */
+/* line 240, ../scss/app.scss */
 .dean {
   text-align: center;
   height: 55px;
   border-bottom: 3px solid #fff;
   margin-bottom: 85px;
 }
-/* line 221, ../scss/app.scss */
+/* line 245, ../scss/app.scss */
 .dean .deanimg {
   border-radius: 50%;
   width: 100px;
   border: 3px solid #fff;
 }
 
-/* line 228, ../scss/app.scss */
+/* line 252, ../scss/app.scss */
 .signature {
   width: 198px;
 }
 
-/* line 234, ../scss/app.scss */
-#meetsis {
-  background-image: url(../img/2-outdoor-tinted.jpg);
-}
-
-/* line 240, ../scss/app.scss */
+/* line 264, ../scss/app.scss */
 #sustainability {
   background-image: url(../img/3-rooftop-tinted.jpg);
 }
 
-/* line 246, ../scss/app.scss */
+/* line 270, ../scss/app.scss */
 #studyabroad {
-  background-image: url(../img/4-ceiling-tinted.jpg);
+  padding-bottom: 0;
+  margin-bottom: -7px;
 }
 
-/* line 252, ../scss/app.scss */
+/* line 275, ../scss/app.scss */
+.leaflet-bottom, .leaflet-right {
+  display: none !important;
+}
+
+/* line 278, ../scss/app.scss */
+.leaflet-container .leaflet-control-attribution {
+  display: none !important;
+}
+
+/* line 281, ../scss/app.scss */
+.mapbox:after {
+  display: block;
+  content: " ";
+  width: 280px;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 293, ../scss/app.scss */
 #programsanddegrees {
   background-image: url(../img/5-topview-tinted.jpg);
 }
 
-/* line 258, ../scss/app.scss */
-#careersandinternships {
-  background-image: url(../img/6-balcony-tinted.jpg);
-}
-/* line 260, ../scss/app.scss */
+/* line 301, ../scss/app.scss */
 #careersandinternships ul {
   -webkit-column-count: 3;
   /* Chrome, Safari, Opera */
+  -webkit-column-gap: 0.75em;
   -moz-column-count: 3;
   /* Firefox */
+  -moz-column-gap: 0.75em;
   column-count: 3;
+  column-gap: 0.75em;
+}
+/* line 309, ../scss/app.scss */
+#careersandinternships li {
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  -o-column-break-inside: avoid;
+  -ms-column-break-inside: avoid;
+  column-break-inside: avoid;
+  -webkit-column-fill: balance;
+  -moz-column-fill: balance;
+  -o-column-fill: balance;
+  -ms-column-fill: balance;
+  column-fill: balance;
 }
 
-/* line 271, ../scss/app.scss */
+/* line 327, ../scss/app.scss */
 #alumni {
   background-image: url(../img/7-classroom-tinted.jpg);
   padding-bottom: 16rem;
 }
-
-/* line 276, ../scss/app.scss */
-.fa {
-  font-size: 200%;
-  width: 40px;
+/* line 331, ../scss/app.scss */
+#alumni .follow li {
   position: relative;
-  top: 5px;
+  top: -5px;
+}
+/* line 335, ../scss/app.scss */
+#alumni .follow .fa {
+  font-size: 150%;
+  width: 30px;
+  float: left;
+}
+/* line 340, ../scss/app.scss */
+#alumni .follow div {
+  display: inline-block;
+  margin-top: 5px;
+  width: 80%;
+}
+/* line 345, ../scss/app.scss */
+#alumni ul {
+  margin-top: 25px;
 }

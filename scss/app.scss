@@ -40,25 +40,25 @@
 //   "foundation/components/visibility";
 
 @font-face {
-    font-family: 'InterstateRegular';
-    src: url('interstate-regular-webfont.eot?') format('eot'),
-         url('interstate-regular-webfont.woff') format('woff'),
-         url('interstate-regular-webfont.ttf') format('truetype'),
-         url('interstate-regular-webfont.svg#webfontjeQgvMIS') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'InterstateRegular';
+	src: url('interstate-regular-webfont.eot?') format('eot'),
+	url('interstate-regular-webfont.woff') format('woff'),
+	url('interstate-regular-webfont.ttf') format('truetype'),
+	url('interstate-regular-webfont.svg#webfontjeQgvMIS') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
-$darkblue : rgba(85,85,115,0.75);
+$darkblue : rgba(61,61,121,0.75);
 $beige: #F1ECE6;
 $grey: #939597;
 $opacity: 93%;
 
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 *, *:before, *:after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 body{
@@ -66,7 +66,7 @@ body{
 	color: #fff;
 	font-family: 'InterstateRegular', Verdana, Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
-	background-color: #333;
+	background-color: #233447;
 }
 h1,h2{
 	color: #fff;
@@ -89,7 +89,7 @@ h1, h2, h3, h5, h5, h6{
 	letter-spacing: -1px;
 }
 
-h1, h2, h3, h4, h5, h6, p, li{
+h1, h2, h3, h4, h5, h6{
 	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
@@ -102,15 +102,15 @@ ul {
 }
 li{
 	margin-bottom: 1rem;
-    font-size: 0.8rem;
-    line-height: 1.1;
+	font-size: 0.8rem;
+	line-height: 1.1;
 }
 a{
 	text-decoration: underline;
 }
 
 .topspace{
-	padding-top: 2.5rem;
+	padding-top: 2rem;
 }
 
 
@@ -119,7 +119,7 @@ a{
 
 dl.magellan {min-width: inherit; width: 100%; background-color: inherit;}
 @media only screen and (max-width: 767px) {
-  dl.magellan {position: static !important; width: 100%}
+	dl.magellan {position: static !important; width: 100%}
 }
 #left{
 	position: fixed;
@@ -127,7 +127,7 @@ dl.magellan {min-width: inherit; width: 100%; background-color: inherit;}
 	left: 0;
 	width: 185px;
 	height: 100%;
-	background-color: rgba(255,255,255,0.1);
+	background-color: rgba(255,255,255,0.2);
 	line-height: 1;
 	z-index:100;
 	a{
@@ -138,7 +138,7 @@ dl.magellan {min-width: inherit; width: 100%; background-color: inherit;}
 	width: 155px;
 	margin: 0 auto;
 	display: block;
-	padding: 0.2rem 0;
+	padding: 2rem 0;
 }
 .active{
 	background-color: $darkblue;
@@ -146,13 +146,16 @@ dl.magellan {min-width: inherit; width: 100%; background-color: inherit;}
 dl.magellan{
 	height: 0;
 }
-.magellan a{
+.magellan dd a{
 	border-top: 1px solid rgba(255, 255, 255, 0.5);
 	display: block;
 	padding: 28px 15px;
 	line-height: 1.2;
 	text-transform: uppercase;
 	font-size: 14px;
+}
+.magellan dd:first-child a{
+	border-top: none;
 }
 .magellan dd:last-child{
 	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -169,18 +172,30 @@ dl dd{
 }
 
 section{
-	padding: 4.5rem 0;
+	padding: 4rem 0;
 	background-position: left -5px;
-		  -webkit-background-size: cover;           /* Safari 3.0 */
-	     -moz-background-size: cover;           /* Gecko 1.9.2 (Firefox 3.6) */
-	       -o-background-size: cover;           /* Opera 9.5 */
-	          background-size: cover;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
-	          background-repeat: no-repeat;
+	-webkit-background-size: cover;           /* Safari 3.0 */
+	-moz-background-size: cover;           /* Gecko 1.9.2 (Firefox 3.6) */
+	-o-background-size: cover;           /* Opera 9.5 */
+	background-size: cover;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+	background-repeat: no-repeat;
 	z-index: 50;
 	position: relative;
 	// @media (max-width: @ipad-screen){
 	// 	background-attachment: scroll;
 	// }
+	background: #233447; /* Old browsers */
+	background: -moz-linear-gradient(top,  #233447 0%, #27588e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#233447), color-stop(100%,#27588e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #233447 0%,#27588e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #233447 0%,#27588e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #233447 0%,#27588e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #233447 0%,#27588e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#233447', endColorstr='#27588e',GradientType=0 ); /* IE6-9 */
+
+}
+section:nth-child(2){
+
 }
 // section:after{
 // 	position: absolute;
@@ -192,9 +207,9 @@ section{
 // 	bottom: 0;
 // }
 section > .row{
-		padding-left:185px;
-		max-width: inherit;
-		
+	padding-left:185px;
+	max-width: inherit;
+
 }
 
 .youtube{
@@ -205,6 +220,15 @@ section > .row{
 .anchor{
 	height: 0;
 	width: 0;
+}
+
+.events div{
+	font-weight: bold;
+	padding-bottom: 2px;
+	letter-spacing: -0.5px;
+}
+.events li{
+	margin-bottom: 1.75rem;
 }
 // ////////////////// Welcome Section //////////////////
 
@@ -232,7 +256,7 @@ section > .row{
 // ////////////////// Meet SIS Section //////////////////
 
 #meetsis{
-	background-image:url(../img/2-outdoor-tinted.jpg);	
+	// background-image:url(../img/2-outdoor-tinted.jpg);	
 }
 
 // ////////////////// Sustainability Section //////////////////
@@ -244,7 +268,24 @@ section > .row{
 // ////////////////// Study Abroad Section //////////////////
 
 #studyabroad{
-	background-image:url(../img/4-ceiling-tinted.jpg);		
+	// background-image:url(../img/4-ceiling-tinted.jpg);	
+	padding-bottom: 0;
+	margin-bottom: -7px;	
+}
+.leaflet-bottom, .leaflet-right{
+	display: none !important;
+}
+.leaflet-container .leaflet-control-attribution{
+	display: none !important;
+}
+.mapbox:after{
+	display: block;
+	content: " ";
+	width: 280px;
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
 }
 
 // ////////////////// Programs and Degrees Section //////////////////
@@ -256,11 +297,26 @@ section > .row{
 // ////////////////// Careers and Internships Section //////////////////
 
 #careersandinternships{
-	background-image:url(../img/6-balcony-tinted.jpg);
+	// background-image:url(../img/6-balcony-tinted.jpg);
 	ul{
-	 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
-	    -moz-column-count: 3; /* Firefox */
-	    column-count: 3;
+		-webkit-column-count: 3; /* Chrome, Safari, Opera */
+		-webkit-column-gap: 0.75em;
+		-moz-column-count: 3; /* Firefox */
+		-moz-column-gap: 0.75em;
+		column-count: 3;
+		column-gap: 0.75em;
+	}
+	li{
+		-webkit-column-break-inside:avoid;
+		-moz-column-break-inside:avoid;
+		-o-column-break-inside:avoid;
+		-ms-column-break-inside:avoid;
+		column-break-inside:avoid;		
+		-webkit-column-fill: balance;
+		-moz-column-fill: balance;
+		-o-column-fill: balance;
+		-ms-column-fill: balance;
+		column-fill: balance;
 	}
 }
 
@@ -271,13 +327,25 @@ section > .row{
 #alumni{
 	background-image:url(../img/7-classroom-tinted.jpg);
 	padding-bottom: 16rem;
-}
 
-.fa{
-	font-size: 200%;
-	width: 40px;
-	position: relative;
-	top: 5px;
-}
+	.follow li{
+		position: relative;
+		top: -5px;
+	}
+	.follow .fa{
+		font-size: 150%;
+		width: 30px;
+		float: left;
+	}
+	.follow div{
+		display: inline-block;
+		margin-top: 5px;
+		width: 80%;
+	}
+	ul{
+		margin-top: 25px;
+	}
 
+
+}
 
