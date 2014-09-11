@@ -266,8 +266,9 @@ section > .row{
 		color: rgba(255,255,255, 0.5);
 	}
 	.tweets, .events{
-		height: 180px;
-		overflow: scroll;
+		height: 250px;
+		overflow-x: scroll;
+		overflow-y: none;
 		background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.1));
 		padding: 20px;
 		margin-top: 10px;
