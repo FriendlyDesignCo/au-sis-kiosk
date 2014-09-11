@@ -95,7 +95,10 @@ class TimeAgo {
       )
     ) {
       $hours = floor($timeDifference / $this->secondsPerHour);
-      $timeAgo = $hours." hours";
+      if ($hours == 1)
+        $timeAgo = $hours." hour";
+      else
+        $timeAgo = $hours." hours";
     }
     // between 23hours59mins30secs and 47hours59mins29secs
     else if(

@@ -18,7 +18,7 @@ foreach ($tweets as $tweet)
 {
   ?><li>
       <div><?php echo $tweet['text']; ?></div>
-      <?php echo timeAgoInWords($tweet['created_at']); ?>
+      <?php echo timeAgoInWords($tweet['created_at']); ?> ago
     </li>
 <?php
 }
