@@ -49,13 +49,13 @@ function cmp($a, $b)
 {
   return (strtotime($a['realDate']) < strtotime($b['realDate'])) ? -1 : 1;
 }
- 
+
 ob_start();
 // SIS Events Loop
 $count = 0;
 foreach ($events as $event)
 {
-  if (++$count > 3) 
+  if (++$count > 5) 
     break;
   ?>
     <li>
