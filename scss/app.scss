@@ -222,13 +222,17 @@ section > .row{
 	width: 0;
 }
 
-.events div{
+
+
+.events div, .tweets div{
 	font-weight: bold;
 	padding-bottom: 2px;
 	letter-spacing: -0.5px;
+	color: rgba(255,255,255, 1);
 }
-.events li{
+.events li, .tweets li{
 	margin-bottom: 1.5rem;
+	color: rgba(255,255,255, 0.5);
 }
 
 
@@ -259,12 +263,7 @@ section > .row{
 
 #meetsis{
 	// background-image:url(../img/2-outdoor-tinted.jpg);	
-	.tweets{
-		div{
-			color: rgba(255,255,255, 1);
-		}
-		color: rgba(255,255,255, 0.5);
-	}
+
 	.tweets, .events{
 		height: 250px;
 		overflow-y: scroll;
