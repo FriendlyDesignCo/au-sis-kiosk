@@ -228,8 +228,10 @@ section > .row{
 	letter-spacing: -0.5px;
 }
 .events li{
-	margin-bottom: 1.75rem;
+	margin-bottom: 1.5rem;
 }
+
+
 // ////////////////// Welcome Section //////////////////
 
 #welcome{
@@ -257,6 +259,30 @@ section > .row{
 
 #meetsis{
 	// background-image:url(../img/2-outdoor-tinted.jpg);	
+	.tweets{
+		div{
+			color: rgba(255,255,255, 1);
+		}
+		color: rgba(255,255,255, 0.5);
+	}
+	.tweets, .events{
+		height: 180px;
+		overflow: scroll;
+		background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.1));
+		padding: 20px;
+		margin-top: 10px;
+
+		li {
+			padding-bottom: 15px;
+			border-bottom: 1px solid rgba(255,255,255, 0.25);
+			&:last-child{
+				border-bottom: none;
+				padding-bottom: 0;
+				margin-bottom: 1rem;
+			}
+		}
+	}
+
 }
 
 // ////////////////// Sustainability Section //////////////////
