@@ -41,19 +41,13 @@
       <div class="row">
         <div class="small-10 small-centered columns">
           <p>Welcome to the School of International Service (SIS) at American University!</p>
-
-          <p>SIS is a diverse community of faculty, staff, students, and alumni dedicated to understanding and meeting global challenges. </p>
-
+          <p>SIS is a diverse community of faculty, staff, students, and alumni dedicated to understanding and responding to the world’s most pressing challenges.</p>
           <p>We have an incredible faculty, whose research is at the forefront of their fields. Our staff works hard to ensure that students can take full advantage of all our school and city have to offer. Our students are a tremendous resource themselves, creating a vibrant community from across the country and around the world. And our location in Washington, D.C. puts us in close proximity to national and international decision-makers.</p>
-
           <p>Our curriculum emphasizes the word “service” in the school's name. This overriding mantra guides the school in its goal to educate individuals who offer the promise of success in an increasingly interconnected and complex world. Our service mission is also reinforced through architecture, as SIS opened its new "green" LEED-gold certified building in summer 2010.</p>
-
-          <p>We invite you to tour our beautiful building, attend some of our dynamic events, explore our website, follow us on social media, sign up for our newsletter, and talk to some of our enthusiastic faculty, staff, and students to learn more about all that SIS has to offer.</p>
-
-          <img src="img/signature.png" class="signature">
-
-          <p><strong>James Goldgeier</strong><br>
-            Dean<br>
+          <p>We invite you to tour our beautiful building, attend some of our events, explore our website, follow us on social media, sign up for our newsletter, and meet some of our enthusiastic faculty, staff, and students to learn more about all that SIS has to offer.</p>
+          <img src="img/signature.png" class="signature" alt="Signature of James Goldgeier">
+          <p><strong>James Goldgeier, Dean</strong><br>
+            @JimGoldgeier<br>
             School of International Service</p>
 
           </div>
@@ -110,7 +104,7 @@
         </div>
         <div class="row">
           <div class="small-10 small-centered columns">
-            <p>Watch as Dean Jim Goldgeier and Bill McDonough, renowned “green” architect of the SIS building, explore the tangible embodiment of our commitment to sustainability.</p>
+            <p>Watch as SIS Dean Jim Goldgeier and world-renowned architect Bill McDonough, who designed the SIS building, explore how the LEED-gold certified building’s innovative green design supports the school’s goal of environmental sustainability.</p>
             <p>The design, construction, and operation of our LEED-gold certified building reflect SIS’s commitment to advancing ecological stewardship, preserving transparency and human dignity, and working for social justice.
             </p>
             <div class="row topspace">
@@ -134,8 +128,8 @@
         </div>
         <div class="row">
           <div class="small-10 small-centered columns">
-            <p>The great challenges of our time require a global perspective. The school’s policy-practitioner relationships and global university partnerships enable many of our students to study abroad. </p>
-            <p>Tap a location below to learn more.</p>
+            <p>The great challenges of our time benefit from a global perspective. Each year, hundreds of SIS students travel abroad to continue their studies and research or to work in internships or practica. SIS’s numerous international partnerships enable students to identify the overseas program that best fits their interests.</p>
+            <p>Tap a location below to learn more:</p>
           </div>
         </div>
         <div class="row topspace mapbox">
@@ -162,8 +156,8 @@
         </div>
         <div class="row">
           <div class="small-10 small-centered columns">
-            <p>Degrees from SIS equip students with the knowledge and skills necessary to lead change in our complex and interconnected world. SIS offers a comprehensive liberal arts program for undergraduate students, professional training in international affairs for master’s students, executive degrees for professionals, and a multidisciplinary program for doctoral students.</p>
-            <p>SIS offers over twenty-five degree programs, including the premier online master’s degree in international relations. If you are interested in applying to SIS, please be in touch with our admissions office for more information. Select a degree below to learn more.</p>
+            <p>SIS equips students with the knowledge and practical skills necessary to respond to the world’s most pressing challenges. SIS offers a comprehensive liberal arts program for undergraduate students, professional training in international affairs for master’s students, executive degrees for professionals, and a multidisciplinary program for doctoral students.</p>
+            <p>SIS offers over twenty-five degree programs, including the world’s premier online master’s degree in international relations. If you are interested in applying to SIS, please contact our admissions office for more information.</p>
 
             <div class="row" id="degrees">
               <div class="small-4 columns">
@@ -243,8 +237,8 @@
           </div>
           <div class="row">
             <div class="small-10 small-centered columns">
-              <p>SIS graduates work in a wide variety of professions in the private, public, and not-for-profit sectors throughout the world. While on campus, students take advantage of Washington, D.C.’s extensive resources. Many of SIS’s over 15,000 alumni began their careers in the Washington D.C. area through internships and fellowship opportunities. </p>
-              <p>Career advisors at SIS regularly meet with students to assist with resume writing, job applications, and overall career counseling. Additionally, we offer regular networking events throughout the year with alumni.</p>
+              <p>SIS graduates work in a variety of professions in government, non-profits, multilateral organizations, and business throughout the world. While on campus, students can take advantage of Washington, D.C.’s extensive resources. Many of SIS’s over 15,000 alumni began their careers in the Washington D.C. area through internships and fellowship opportunities.</p>
+              <p>SIS career advisors regularly meet with students to assist with résumé writing, job applications, and career counseling. In addition, SIS hosts frequent networking events throughout the year with alumni.</p>
               <p>Some recent employers include:</p>
               <ul>
                 <li>Accenture</li>
@@ -347,9 +341,8 @@
         </div>
         <div class="row">
           <div class="small-10 small-centered columns">
-            <p>SIS is proud of its graduates and takes great pleasure in staying in touch with them. We provide many opportunities for current students to interact and network with alumni around the world. We also offer many occasions for alumni to network and socialize with one another. </p>
-            <p>If you are a returning alum, welcome back! Please visit our website for information about special events and activities and be sure to connect with us on social media.
-            </p>
+            <p>SIS is proud of its graduates and takes great pleasure in staying in touch with them. We provide many opportunities for current students to interact and network with alumni around the world. We also offer frequent occasions for SIS alumni to network and socialize with one another.</p>
+            <p>If you are a returning alum, welcome back! Please visit our website for information about special events and activities and be sure to connect with us on social media.</p>
             <div class="row">
               <div class="small-4 columns">
                 <h3>Follow Us</h3>
