@@ -1,0 +1,8 @@
+{
+    "require":
+    {
+        "j7mbo/twitter-api-php": "dev-master",
+        "fastfeed/fastfeed": "dev-master",
+        "simplepie/simplepie": "dev-master"
+    }
+}
